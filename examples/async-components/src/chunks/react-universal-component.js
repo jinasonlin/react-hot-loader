@@ -1,3 +1,5 @@
 import universal from 'react-universal-component';
 
-export default universal(() => import('../Counter'));
+export const Universal1 = universal(() => import('../Counter'));
+
+export const Universal2 = universal(() => import('../Counter2'));

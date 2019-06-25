@@ -19,3 +19,19 @@ class Counter extends React.Component {
 }
 
 export default Counter;
+
+// import React from 'react';
+// import { hot } from 'react-hot-loader';
+
+// class Counter extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         2#
+//         <span>1</span>
+//       </div>
+//     );
+//   }
+// }
+
+// export default Counter;

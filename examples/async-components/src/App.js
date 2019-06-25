@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import emoStyled from 'react-emotion';
 
 // import CAsync from './chunks/async-component'
-// import CLoadableComp from './chunks/loadable-components'
-import { RLoadable1, RLoadable2 } from './chunks/react-loadable';
-// import CImp from './chunks/react-imported-component'
-// import CUni from './chunks/react-universal-component'
+// import { RLoadable1 as Comp1, RLoadable2 as Comp2 } from './chunks/react-loadable';
+import { Loadable1 as Comp1, Loadable2 as Comp2 } from './chunks/loadable-components';
+// import  { Imported1 as Comp1, Imported2 as Comp2 } from './chunks/react-imported-component'
+// import { Universal1 as Comp1, Universal2 as Comp2 } from './chunks/react-universal-component'
 
 const BigText = styled.div`
   font-size: 20px;
@@ -36,15 +36,11 @@ const App = () => (
       {/*Loadable-components <CLoadableComp />*/}
       {/*</li>*/}
       <li>
-        React-Loadable <RLoadable1 />
-        1
+        Import <Comp1 />
       </li>
-      {/*<li>*/}
-      {/*Imported-component <CImp />*/}
-      {/*</li>*/}
-      {/*<li>*/}
-      {/*Universal-component <CUni />*/}
-      {/*</li>*/}
+      <li>
+        Import <Comp2 />
+      </li>
     </ul>
   </div>
 );

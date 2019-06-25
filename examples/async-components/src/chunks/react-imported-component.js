@@ -1,5 +1,5 @@
 import imported from 'react-imported-component';
 
-const test = 115582;
+export const Imported1 = imported(() => import('../Counter'));
 
-export default imported(() => import('../Counter'));
+export const Imported2 = imported(() => import('../Counter2'));
